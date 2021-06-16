@@ -1,22 +1,21 @@
 .. _howto/rdtraining/01_architecture:
 
 ================================
-Chapter 1: Architecture Overview
+第一章: 構造の概要
 ================================
 
-Multitier application
+多層アーキテクチャ アプリケーション
 =====================
 
-Odoo follows a `multitier architecture`_, meaning that the presentation, the business
-logic and the data storage are separated. More specifically, it uses a three-tier architecture
-(image from Wikipedia):
+Odooは多層アーキテクチャに従って、即ち プレゼンテーション層, ビジネスロジック層 と
+データの保存が隔ています . 具体的に, 三層アーキテクチャを用いています
+(ウィキペディアより画像):
 
 .. image:: 01_architecture/media/three_tier.svg
     :align: center
     :alt: Three-tier architecture
 
-The presentation tier is a combination of HTML5, JavaScript and CSS. The logic tier is exclusively
-written in Python, while the data tier only supports PostgreSQL as an RDBMS.
+プレゼンテーション層とはHTML5, JavaScript と CSSとの組み合わせであります. ロジック層とは Pythonのみで書き込んで, while the data tier only supports PostgreSQL as an RDBMS.
 
 Depending on the scope of your module, Odoo development can be done in any of these tiers.
 Therefore, before going any further, it may be a good idea to refresh your memory if you don't have
@@ -121,10 +120,10 @@ Ready to start? Before writing actual code, let's go to the
 Odoo is already running on your system, we strongly suggest you go through this chapter
 to make sure we start on the same page during the development of our new application.
 
-.. _multitier architecture:
-    https://en.wikipedia.org/wiki/Multitier_architecture
+.. _多層アーキテクチャ:
+    https://ja.wikipedia.org/wiki/%E5%A4%9A%E5%B1%A4%E3%82%A2%E3%83%BC%E3%82%AD%E3%83%86%E3%82%AF%E3%83%81%E3%83%A3
 
-.. _Python tutorial:
+.. _Python 入門:
     https://docs.python.org/3.6/tutorial/
 
 .. _two versions:
